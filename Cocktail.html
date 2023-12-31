@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Villa</title>
+    <link rel="stylesheet" href="Cocktail.css" class="css">
+</head>
+<body>
+    <marquee direction="right" speed="23"><h2 class="move">WELCOME TO COCKTAIL VILLA</h2></marquee>
+   
+    <section>
+        <div class="circle"></div>
+        <header>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="feeback.html">Feedback</a></li>
+        </ul>
+    </header>
+    </section>
+    <div class="Content">
+        <div class="textbox">
+        <!-- <h2>A day without Starbucks is like — just kidding.</h2> -->
+        <h2>Sip, savor & elevate<br>your spirits at <span class="star" >Cocktail Villa</span></h2>
+
+    <p>Cocktail Villa is a vibrant destination where mixology meets creativity. With a diverse menu of expertly crafted cocktails, this establishment offers a unique and stylish atmosphere. From classic concoctions to innovative blends, Cocktail Villa is a haven for those seeking a delightful and immersive cocktail experience.</p>
+    <div class="link">
+    </div>
+</div>
+
+<div class="imagebox">
+    <img src="Cock1.jpg" class="img1">
+    <!-- <img src="star2.png"> -->
+
+</div>
+<div class="smallimg">
+    <ul>
+        <li ><img src="Cocks1.jpg" onclick="slidder('Cock1.jpg')"></li>
+        <li ><img src="Cocks2.jpg" onclick="slidder('Cock2.jpg')"></li>
+        <li><img src="Cocks3.jpg" onclick="slidder('Cock3.jpg')"></li>
+        <li><img src="Cocks4.jpg" onclick="slidder('Cock4.jpg')"></li>
+        
+        
+    </ul>
+</div>
+<div class="sign">
+    <ul>
+        <li><a href="#"><img src="facebook.png"></a></li>
+        <li><a href="#"><img src="instagram.png"></a></li>
+        <li><a href="#"><img src="threads1.png"></a></li>
+        <li><a href="#"><img src="twitter2.png"></a></li>
+    </ul>
+</div>
+
+</div>
+
+<script>
+    function slidder(different){
+        document.querySelector('.img1').src = different;
+    }
+</script>
+</body>
+</html>
