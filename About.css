@@ -1,0 +1,14 @@
+*{
+    background-color: antiquewhite;
+}
+
+.content,.content2{
+    font-size: x-large;
+}
+.images{
+    display:flex;
+    margin-right:5px;
+}
+h1{
+    color:slategray;
+}
