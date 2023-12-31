@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="starbucks.css" class="css">
+</head>
+<body>
+    <marquee direction="right" speed="23"><h2 class="move">WELCOME TO STARBUCKS</h2></marquee>
+   
+    <section>
+        <div class="circle"></div>
+        <header>
+           
+            <a href="#" class = "logo" ><img src = "logo.png"></a>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </header>
+    </section>
+    <div class="Content">
+        <div class="textbox">
+        <!-- <h2>A day without Starbucks is like — just kidding.</h2> -->
+        <h2>Everything Gets Better <br>with <span class="star">Starbucks</span></h2>
+
+    <p>A cup at Starbucks isn't really that expensive when you consider what Victoria's Secret charges per cup.While we are a coffee company at heart, Starbucks provides much more than the best cup of coffee—we offer a community gathering place where people come together to connect and discover new things.</p>
+    <div class="link">
+    <b>Visit : <a href = "https://www.starbucks.in/dashboard">Website</a></b>
+    
+    </div>
+</div>
+
+<div class="imagebox">
+    <img src="img1.png" class="img1">
+    <!-- <img src="star2.png"> -->
+
+</div>
+<div class="smallimg">
+    <ul>
+        <li ><img src="thumb1.png" onclick="slidder('img1.png')"></li>
+        <li ><img src="thumb2.png" onclick="slidder('img2.png')"></li>
+        <li><img src="thumb3r.png" onclick="slidder('img3.png')"></li>
+        
+        
+    </ul>
+</div>
+<div class="sign">
+    <ul>
+        <li><a href="#"><img src="facebook.png"></a></li>
+        <li><a href="#"><img src="instagram.png"></a></li>
+        <li><a href="#"><img src="threads1.png"></a></li>
+        <li><a href="#"><img src="twitter2.png"></a></li>
+    </ul>
+</div>
+
+</div>
+
+<script>
+    function slidder(different){
+        document.querySelector('.img1').src = different;
+    }
+</script>
+</body>
+</html>
